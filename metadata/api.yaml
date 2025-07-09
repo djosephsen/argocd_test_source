@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: 
+  tags:
+    - go
+spec:
+  type: openapi
+  lifecycle: development
+  owner: prizepicks:engineering
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: "release-chan-api-poc"
+      license:
+        name: MIT
+    servers:
+      - url: http://..svc/v1
+    paths:
+      /healthz:
+        get:
+          summary: General health check for the service

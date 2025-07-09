@@ -1,0 +1,11 @@
+{
+  "name": "release-chan-api-poc",
+  "version": "0.0.0-development", 
+  "description": "Release Channel API - Controls what version of applications get installed in which environments",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myprizepicks/release-chan-api-poc.git"
+  },
+  "license": "UNLICENSED"
+} 

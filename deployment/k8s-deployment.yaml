@@ -1,0 +1,82 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: releases-api
+  namespace: image-updater-system
+  labels:
+    app: releases-api
+    version: v1.0.0
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: releases-api
+  template:
+    metadata:
+      labels:
+        app: releases-api
+        version: v1.0.0
+    spec:
+      containers:
+      - name: release-chan-api-poc
+        image: ghcr.io/myprizepicks/releases-api:latest
+        ports:
+        - containerPort: 8089
+          name: http
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "100m"
+          limits:
+            memory: "128Mi"
+            cpu: "200m"
+        livenessProbe:
+          httpGet:
+            path: /v1/health
+            port: 8089
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /v1/ready
+            port: 8089
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+        env:
+        - name: PORT
+          value: "8089"
+        securityContext:
+          allowPrivilegeEscalation: false
+          runAsNonRoot: true
+          runAsUser: 1001
+          runAsGroup: 1001
+          readOnlyRootFilesystem: true
+          capabilities:
+            drop:
+            - ALL
+      securityContext:
+        fsGroup: 1001
+      restartPolicy: Always
+      imagePullSecrets:
+        - name: ghcr
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: releases-api-service
+  namespace: image-updater-system
+  labels:
+    app: releases-api
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 8089
+    targetPort: 8089
+    protocol: TCP
+    name: http
+  selector:
+    app: releases-api 

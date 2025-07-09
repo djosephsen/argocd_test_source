@@ -1,0 +1,1283 @@
+{
+  "releases": [
+  {
+    "container": "alley-oop-basketball",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/alley-oop-basketball:0.174.1"
+  },
+  {
+    "container": "alley-oop-basketball-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/alley-oop-basketball:0.174.1"
+  },
+  {
+    "container": "controller-manager",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/argoproj/argo-events:v1.9.6"
+  },
+  {
+    "container": "stan",
+    "releaseChannel": "dev",
+    "imagePath": "nats-streaming:0.22.1"
+  },
+  {
+    "container": "metrics",
+    "releaseChannel": "dev",
+    "imagePath": "natsio/prometheus-nats-exporter:0.8.0"
+  },
+  {
+    "container": "main",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/argoproj/argo-events:v1.9.6"
+  },
+  {
+    "container": "argo-rollouts",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/argoproj/argo-rollouts:v1.8.3"
+  },
+  {
+    "container": "argo-server",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/argoproj/argocli:v3.6.5"
+  },
+  {
+    "container": "workflow-controller",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/argoproj/workflow-controller:v3.6.5"
+  },
+  {
+    "container": "argocd-application-controller",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/argoproj/argocd:v2.14.11"
+  },
+  {
+    "container": "argocd-applicationset-controller",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/argoproj/argocd:v2.14.11"
+  },
+  {
+    "container": "dex",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/dexidp/dex:v2.40.0"
+  },
+  {
+    "container": "argocd-image-updater",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/argoprojlabs/argocd-image-updater:v0.15.1"
+  },
+  {
+    "container": "argocd-notifications-controller",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/argoproj/argocd:v2.14.11"
+  },
+  {
+    "container": "haproxy",
+    "releaseChannel": "dev",
+    "imagePath": "haproxy:2.6.9"
+  },
+  {
+    "container": "redis",
+    "releaseChannel": "dev",
+    "imagePath": "redis:7.0.9-alpine3.17"
+  },
+  {
+    "container": "sentinel",
+    "releaseChannel": "dev",
+    "imagePath": "redis:7.0.9-alpine3.17"
+  },
+  {
+    "container": "split-brain-fix",
+    "releaseChannel": "dev",
+    "imagePath": "redis:7.0.9-alpine3.17"
+  },
+  {
+    "container": "argocd-repo-server",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/argoproj/argocd:v2.14.11"
+  },
+  {
+    "container": "argocd-server",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/argoproj/argocd:v2.14.11"
+  },
+  {
+    "container": "auto-trader",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/auto_trader:12.35.33-main-808b864"
+  },
+  {
+    "container": "backoffice",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-fe-applications:9.10.0-master-2cc1df6"
+  },
+  {
+    "container": "bases-loaded-baseball",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/bases-loaded-baseball:0.197.1"
+  },
+  {
+    "container": "bases-loaded-baseball-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/bases-loaded-baseball:0.197.1"
+  },
+  {
+    "container": "canary-checker",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/flanksource/canary-checker:latest"
+  },
+  {
+    "container": "cashout-trigger",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/cashout-trigger:4648079f31a14a89ecde2427539673a3cb9017e9"
+  },
+  {
+    "container": "cashout-trigger-metadata",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/cashout-trigger:4648079f31a14a89ecde2427539673a3cb9017e9"
+  },
+  {
+    "container": "cashout-trigger-wagers",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/cashout-trigger:4648079f31a14a89ecde2427539673a3cb9017e9"
+  },
+  {
+    "container": "centrifugo",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/centrifugo/centrifugo:v5.2.2"
+  },
+  {
+    "container": "cert-manager-controller",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/jetstack/cert-manager-controller:v1.14.4"
+  },
+  {
+    "container": "cert-manager-cainjector",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/jetstack/cert-manager-cainjector:v1.14.4"
+  },
+  {
+    "container": "cert-manager-webhook",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/jetstack/cert-manager-webhook:v1.14.4"
+  },
+  {
+    "container": "chaos-mesh",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/chaos-mesh/chaos-mesh:v2.7.1"
+  },
+  {
+    "container": "chaos-daemon",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/chaos-mesh/chaos-daemon:v2.7.1"
+  },
+  {
+    "container": "chaos-dashboard",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/chaos-mesh/chaos-dashboard:v2.7.1"
+  },
+  {
+    "container": "chaos-dns-server",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/chaos-mesh/chaos-coredns:v0.2.6"
+  },
+  {
+    "container": "cloudflare-zero-trust-operator",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/bojanzelic/cloudflare-zero-trust-operator:0.7.1"
+  },
+  {
+    "container": "manager",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/kubeshop/testkube-operator:2.1.142"
+  },
+  {
+    "container": "simulation-backfill-games-and-teams-scorekeeper",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/simulation_projections_creator:0.3.13-main-806da1d"
+  },
+  {
+    "container": "simulation-backfill-players-scorekeeper",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/simulation_projections_creator:0.3.13-main-806da1d"
+  },
+  {
+    "container": "simulation-initializer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/simulation_initializer:0.3.4-main-3944bcc"
+  },
+  {
+    "container": "simulation-monitor",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/simulation_monitor:0.3.4-main-3944bcc"
+  },
+  {
+    "container": "simulation-tooling-suite",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/simulation_tooling_suite:0.1.1-main-8ba0ff3"
+  },
+  {
+    "container": "postgres",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/cloudnative-pg/postgresql:16"
+  },
+  {
+    "container": "confluent-operator",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/confluentinc/confluent-operator:0.1145.6"
+  },
+  {
+    "container": "connect",
+    "releaseChannel": "dev",
+    "imagePath": "confluentinc/cp-server-connect:7.9.0"
+  },
+  {
+    "container": "kafkarestproxy",
+    "releaseChannel": "dev",
+    "imagePath": "confluentinc/cp-kafka-rest:7.9.0"
+  },
+  {
+    "container": "correlated-pricing",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/correlated-pricing:v1.5.0"
+  },
+  {
+    "container": "statsd-exporter",
+    "releaseChannel": "dev",
+    "imagePath": "prom/statsd-exporter:v0.28.0@sha256:4e7a1f00b9b23ef0c5b4fdbb7f4748bdc218cfdff04acc8033bc5b9f7c15009d"
+  },
+  {
+    "container": "correlations-api",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/correlations-api:12.35.33-main-808b864"
+  },
+  {
+    "container": "correlations-crud",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/correlations_crud:12.35.33-main-808b864"
+  },
+  {
+    "container": "dapr-operator",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/dapr/operator:1.13.3"
+  },
+  {
+    "container": "dapr-placement-server",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/dapr/placement:1.13.3"
+  },
+  {
+    "container": "dapr-sentry",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/dapr/sentry:1.13.3"
+  },
+  {
+    "container": "dapr-sidecar-injector",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/dapr/injector:1.13.3"
+  },
+  {
+    "container": "debezium-operator",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/debezium/operator:nightly"
+  },
+  {
+    "container": "ding-ding-ding-mma",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/ding-ding-ding-mma:0.22.1"
+  },
+  {
+    "container": "ding-ding-ding-mma-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/ding-ding-ding-mma:0.22.1"
+  },
+  {
+    "container": "external-dns",
+    "releaseChannel": "dev",
+    "imagePath": "registry.k8s.io/external-dns/external-dns:v0.16.1"
+  },
+  {
+    "container": "frontend-rn",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rn:0.0.0"
+  },
+  {
+    "container": "frontend",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-fe:33.99.0-main-2b87d48"
+  },
+  {
+    "container": "go-api",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-go-api:1.386.0-main-a4ea551"
+  },
+  {
+    "container": "goooal-soccer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/goooal-soccer:1.109.0"
+  },
+  {
+    "container": "goooal-soccer-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/goooal-soccer:1.109.0"
+  },
+  {
+    "container": "goreplay",
+    "releaseChannel": "dev",
+    "imagePath": "buger/gor:v1.3.3"
+  },
+  {
+    "container": "gpu-operator",
+    "releaseChannel": "dev",
+    "imagePath": "nvcr.io/nvidia/gpu-operator:v25.3.0"
+  },
+  {
+    "container": "gc",
+    "releaseChannel": "dev",
+    "imagePath": "registry.k8s.io/nfd/node-feature-discovery:v0.17.2"
+  },
+  {
+    "container": "master",
+    "releaseChannel": "dev",
+    "imagePath": "registry.k8s.io/nfd/node-feature-discovery:v0.17.2"
+  },
+  {
+    "container": "worker",
+    "releaseChannel": "dev",
+    "imagePath": "registry.k8s.io/nfd/node-feature-discovery:v0.17.2"
+  },
+  {
+    "container": "grafana-sc-alerts",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/kiwigrid/k8s-sidecar:1.30.0"
+  },
+  {
+    "container": "grafana-sc-dashboard",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/kiwigrid/k8s-sidecar:1.30.0"
+  },
+  {
+    "container": "grafana-sc-datasources",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/kiwigrid/k8s-sidecar:1.30.0"
+  },
+  {
+    "container": "grafana-sc-notifiers",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/kiwigrid/k8s-sidecar:1.30.0"
+  },
+  {
+    "container": "grafana-sc-plugins",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/kiwigrid/k8s-sidecar:1.30.0"
+  },
+  {
+    "container": "grafana",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/grafana/grafana:12.0.0"
+  },
+  {
+    "container": "grafana-operator",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/grafana/grafana-operator:v5.16.0"
+  },
+  {
+    "container": "kubernetes-ingress-controller",
+    "releaseChannel": "dev",
+    "imagePath": "haproxytech/kubernetes-ingress:1.9.0"
+  },
+  {
+    "container": "kubernetes-ingress-default-backend",
+    "releaseChannel": "dev",
+    "imagePath": "k8s.gcr.io/defaultbackend-amd64:1.5"
+  },
+  {
+    "container": "hq-alerting",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/hq-alerting:1.24.0"
+  },
+  {
+    "container": "hq-alerting-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/hq-alerting:1.24.0"
+  },
+  {
+    "container": "kube-rbac-proxy",
+    "releaseChannel": "dev",
+    "imagePath": "gcr.io/kubebuilder/kube-rbac-proxy:v0.15.0"
+  },
+  {
+    "container": "alloy",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/grafana/alloy:v1.6.1"
+  },
+  {
+    "container": "config-reloader",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/jimmidyson/configmap-reload:v0.14.0"
+  },
+  {
+    "container": "keda-admission-webhooks",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/kedacore/keda-admission-webhooks:2.17.0"
+  },
+  {
+    "container": "keda-operator",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/kedacore/keda:2.17.0"
+  },
+  {
+    "container": "keda-operator-metrics-apiserver",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/kedacore/keda-metrics-apiserver:2.17.0"
+  },
+  {
+    "container": "transponder",
+    "releaseChannel": "dev",
+    "imagePath": "ketch.jfrog.io/ketch-docker/transponder/transponder:0.23.12"
+  },
+  {
+    "container": "descheduler",
+    "releaseChannel": "dev",
+    "imagePath": "registry.k8s.io/descheduler/descheduler:v0.32.2"
+  },
+  {
+    "container": "gke-metadata-server",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/gke-metadata-server:gke_metadata_server_20250115.00_p0@sha256:a6301b00a8c2f7091c361c6439f01e20e066aa951e04ef6195e5894b2c5dcf84"
+  },
+  {
+    "container": "konnectivity-agent",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/proxy-agent:v0.31.3-gke.1@sha256:aa89e06b001dd7ef9e9082de3da7ef4b7995c6c857e905d3810eb9901664158f"
+  },
+  {
+    "container": "konnectivity-agent-metrics-collector",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector:20240717_2300_RC0@sha256:d460e6b5088332f62b990f8a1f7bf6d9eca7c3f41cb974e3db493d6b0fc4ad70"
+  },
+  {
+    "container": "autoscaler",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/cluster-proportional-autoscaler:v1.10.2-gke.7@sha256:7b26154ea8bcc71d07c5db1e6ee1e86aa89146dbbc07f22e1a18a1c6f4aee87e"
+  },
+  {
+    "container": "kubedns",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/k8s-dns-kube-dns:1.25.0-gke.13@sha256:7a3d4e8ce809699c4a3eea4ef072e61a2bee6fe464fd467266eb81dd9a1fab30"
+  },
+  {
+    "container": "dnsmasq",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/k8s-dns-dnsmasq-nanny:1.25.0-gke.13@sha256:9f791629b3763afb4b2c0510fbcc22302f984483801b494bf6522af209591560"
+  },
+  {
+    "container": "sidecar",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/k8s-dns-sidecar:1.25.0-gke.13@sha256:64336edb9cf38c908efc189a465d10be4cf0ec3ed952b54c38a5fb73c17a82d5"
+  },
+  {
+    "container": "kubedns-metrics-collector",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector:20250513_2300_RC0@sha256:c8bd9deb1e4181b8d6fbdac05bb5726bb0cc96cc03342e6a0f2239cd9ead7a1e"
+  },
+  {
+    "container": "kube-proxy",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/kube-proxy-amd64:v1.32.4-gke.1353003"
+  },
+  {
+    "container": "default-http-backend",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/ingress-gce-404-server-with-metrics:v1.34.2@sha256:79870c8c149fd62f93caa1fb33dcc20d0a13e2badd3f74775c1cf82ec5e5b2b2"
+  },
+  {
+    "container": "metrics-server",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/metrics-server:v0.7.1-gke.40@sha256:1a927071b863890cb36470a8e3c1093af63a7f29714c5d6e103167670da3e1f3"
+  },
+  {
+    "container": "netd",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/netd:v0.9.8-gke.3@sha256:a033bb89bd3a0550cb000e3d26c22bf3108c3165100269e08fece6c1d8398457"
+  },
+  {
+    "container": "netd-metrics-collector",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector:20250219_2300_RC0@sha256:417803914b2912d9d64e2df7b9cfc8770675076ed912b3ec1f52a0e4104f6f5f"
+  },
+  {
+    "container": "csi-driver-registrar",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/csi-node-driver-registrar:v2.9.4-gke.38@sha256:cf7f967013fe91d11d7c1a7c88b5159b67c81a163f67d47e9345df54d8998e69"
+  },
+  {
+    "container": "gce-pd-driver",
+    "releaseChannel": "dev",
+    "imagePath": "us-central1-artifactregistry.gcr.io/gke-release/gke-release/gcp-compute-persistent-disk-csi-driver:v1.17.12-gke.0@sha256:716c1487c5a112b404d002dfae8219658dc2764e17264ca1e2fe62be13fbea05"
+  },
+  {
+    "container": "reflector",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/emberstack/kubernetes-reflector:9.0.342"
+  },
+  {
+    "container": "reloader-reloader",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/stakater/reloader:v1.4.1"
+  },
+  {
+    "container": "admission-controller",
+    "releaseChannel": "dev",
+    "imagePath": "registry.k8s.io/autoscaling/vpa-admission-controller:1.1.1"
+  },
+  {
+    "container": "recommender",
+    "releaseChannel": "dev",
+    "imagePath": "registry.k8s.io/autoscaling/vpa-recommender:1.1.1"
+  },
+  {
+    "container": "updater",
+    "releaseChannel": "dev",
+    "imagePath": "registry.k8s.io/autoscaling/vpa-updater:1.1.1"
+  },
+  {
+    "container": "leaderboard",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/leaderboard:1.7.0"
+  },
+  {
+    "container": "loki-sc-rules",
+    "releaseChannel": "dev",
+    "imagePath": "kiwigrid/k8s-sidecar:1.30.2"
+  },
+  {
+    "container": "loki",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/grafana/loki:3.4.2"
+  },
+  {
+    "container": "nginx",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/nginxinc/nginx-unprivileged:1.27-alpine"
+  },
+  {
+    "container": "memcached",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/memcached:1.6.33-alpine"
+  },
+  {
+    "container": "exporter",
+    "releaseChannel": "dev",
+    "imagePath": "prometheuscommunity/pgbouncer-exporter:v0.6.0"
+  },
+  {
+    "container": "alertmanager",
+    "releaseChannel": "dev",
+    "imagePath": "grafana/mimir:2.16.0"
+  },
+  {
+    "container": "compactor",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/grafana/tempo:2.7.2"
+  },
+  {
+    "container": "distributor",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/grafana/tempo:2.7.2"
+  },
+  {
+    "container": "ingester",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/grafana/tempo:2.7.2"
+  },
+  {
+    "container": "overrides-exporter",
+    "releaseChannel": "dev",
+    "imagePath": "grafana/mimir:2.16.0"
+  },
+  {
+    "container": "querier",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/grafana/tempo:2.7.2"
+  },
+  {
+    "container": "query-frontend",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/grafana/tempo:2.7.2"
+  },
+  {
+    "container": "query-scheduler",
+    "releaseChannel": "dev",
+    "imagePath": "grafana/pyroscope:1.13.1"
+  },
+  {
+    "container": "rollout-operator",
+    "releaseChannel": "dev",
+    "imagePath": "grafana/rollout-operator:v0.24.0"
+  },
+  {
+    "container": "ruler",
+    "releaseChannel": "dev",
+    "imagePath": "grafana/mimir:2.16.0"
+  },
+  {
+    "container": "store-gateway",
+    "releaseChannel": "dev",
+    "imagePath": "grafana/pyroscope:1.13.1"
+  },
+  {
+    "container": "simulation-backfill-active-rosters-mlb",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/simulation_projections_creator:0.3.13-main-806da1d"
+  },
+  {
+    "container": "simulation-backfill-parks-mlb",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/simulation_projections_creator:0.3.13-main-806da1d"
+  },
+  {
+    "container": "simulation-backfill-player-stats-mlb",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/simulation_projections_creator:0.3.13-main-806da1d"
+  },
+  {
+    "container": "simulation-optimizer-mlb",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/simulation_optimizer_mlb:0.3.13-main-806da1d"
+  },
+  {
+    "container": "simulation-projections-creator",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/simulation_projections_creator:0.3.13-main-806da1d"
+  },
+  {
+    "container": "simulations-runner-mlb",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/mlb-simulations-cuda:0.0.1"
+  },
+  {
+    "container": "beyla",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/grafana/beyla:2.0.3"
+  },
+  {
+    "container": "kube-state-metrics",
+    "releaseChannel": "dev",
+    "imagePath": "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.15.0"
+  },
+  {
+    "container": "node-exporter",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/prometheus/node-exporter:v1.9.1"
+  },
+  {
+    "container": "github-exporter",
+    "releaseChannel": "dev",
+    "imagePath": "githubexporter/github-exporter:1.2.0"
+  },
+  {
+    "container": "nats",
+    "releaseChannel": "dev",
+    "imagePath": "nats:2.10.24-alpine"
+  },
+  {
+    "container": "reloader",
+    "releaseChannel": "dev",
+    "imagePath": "natsio/nats-server-config-reloader:0.16.0"
+  },
+  {
+    "container": "prom-exporter",
+    "releaseChannel": "dev",
+    "imagePath": "natsio/prometheus-nats-exporter:0.16.0"
+  },
+  {
+    "container": "nats-box",
+    "releaseChannel": "dev",
+    "imagePath": "natsio/nats-box:0.17.0"
+  },
+  {
+    "container": "nginx-gateway",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/nginx/nginx-gateway-fabric:1.6.2"
+  },
+  {
+    "container": "no-regrets-dashboard",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/no-regrets-dashboard:0.0.0"
+  },
+  {
+    "container": "noapp-kust",
+    "releaseChannel": "dev",
+    "imagePath": "alpine:latest"
+  },
+  {
+    "container": "noapp",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/noapp:3.89.0-main-d95867a"
+  },
+  {
+    "container": "nohuddle",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/nohuddle:2.187.0-main-94040aa"
+  },
+  {
+    "container": "nohuddle-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/nohuddle:2.187.0-main-94040aa"
+  },
+  {
+    "container": "odds-refresh-mlb",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/odds_refresh:0.0.0"
+  },
+  {
+    "container": "odds-refresh-nba",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/odds_refresh:12.35.33-main-808b864"
+  },
+  {
+    "container": "odds-refresh-ncaaf",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/odds_refresh:12.35.33-main-808b864"
+  },
+  {
+    "container": "odds-refresh-nfl",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/odds_refresh:12.35.33-main-808b864"
+  },
+  {
+    "container": "odds-refresh-nhl",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/odds_refresh:12.35.33-main-808b864"
+  },
+  {
+    "container": "odds-refresh-wnba",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/odds_refresh:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-aggregator",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_aggregator:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-game-mapping",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_game_mapping:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-mlb",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-nba",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-ncaab",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-ncaaf",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-ncaaw",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-nfl",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-nhl",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-player-mapping",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_player_mapping:12.35.28-main-ebfabdd"
+  },
+  {
+    "container": "oddsjam-projection-creation",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_projection_creation:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-soccer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-tennis",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "oddsjam-wnba",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oddsjam_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "projection-consumer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/projection_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "soccer-player-mapping",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/soccer_player_mapping:12.35.28-main-ebfabdd"
+  },
+  {
+    "container": "oj-lineup-pricer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oj_lineup_pricer:12.35.33-main-808b864"
+  },
+  {
+    "container": "oj-spl-pricer-api",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oj-spl-pricer:0.1.0-main-ec17623"
+  },
+  {
+    "container": "oj-spl-pricer-worker",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/oj-spl-pricer:0.1.0-main-ec17623"
+  },
+  {
+    "container": "payments",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-payments:14.59.0-main-9f5ab2c"
+  },
+  {
+    "container": "payments-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-payments:main"
+  },
+  {
+    "container": "daprd",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/dapr/daprd:1.13.3"
+  },
+  {
+    "container": "prizepicks-payments-tobox",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-payments:14.59.0-main-9f5ab2c"
+  },
+  {
+    "container": "prizepicks-payments-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-payments:14.59.0-main-9f5ab2c"
+  },
+  {
+    "container": "pgbouncer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/icoretech/pgbouncer-docker:1.23.1-fixed"
+  },
+  {
+    "container": "polls",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/polls:3.0.0"
+  },
+  {
+    "container": "polls-sidekiq",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/polls:3.0.0"
+  },
+  {
+    "container": "polls-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/polls:3.0.0"
+  },
+  {
+    "container": "prometheus-postgres-exporter",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/prometheuscommunity/postgres-exporter:v0.17.1"
+  },
+  {
+    "container": "prizepicks-help-content-service",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-help-content-service:0.0.0-main-hf.1"
+  },
+  {
+    "container": "progressions",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/loyalty:0.0.0"
+  },
+  {
+    "container": "progressions-contest-wins-consumer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/loyalty:0.2.0"
+  },
+  {
+    "container": "progressions-daily-activity-consumer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/loyalty:0.2.0"
+  },
+  {
+    "container": "progressions-lineups-created-consumer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/loyalty:0.2.0"
+  },
+  {
+    "container": "progressions-lineups-settled-consumer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/loyalty:0.2.0"
+  },
+  {
+    "container": "progressions-mission-rewards-consumer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/loyalty:0.2.0"
+  },
+  {
+    "container": "progressions-referrals-consumer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/loyalty:0.2.0"
+  },
+  {
+    "container": "pushgateway",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/prometheus/pushgateway:v1.11.0"
+  },
+  {
+    "container": "prometheus-server-configmap-reload",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/prometheus-operator/prometheus-config-reloader:v0.81.0"
+  },
+  {
+    "container": "prometheus-server",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/prometheus/prometheus:v3.2.1"
+  },
+  {
+    "container": "pulsar-standalone",
+    "releaseChannel": "dev",
+    "imagePath": "apachepulsar/pulsar:3.2.1"
+  },
+  {
+    "container": "pulsar-operator-bookkeeper-controller-manager",
+    "releaseChannel": "dev",
+    "imagePath": "docker.streamnative.io/streamnative/operators/bookkeeper-operator:v0.17.10"
+  },
+  {
+    "container": "pulsar-operator-pulsar-controller-manager",
+    "releaseChannel": "dev",
+    "imagePath": "docker.streamnative.io/streamnative/operators/pulsar-operator:v0.17.10"
+  },
+  {
+    "container": "pulsar-operator-zookeeper-controller-manager",
+    "releaseChannel": "dev",
+    "imagePath": "docker.streamnative.io/streamnative/operators/zookeeper-operator:v0.17.10"
+  },
+  {
+    "container": "prizepicks-rails-cashout-worker",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-nats",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-novalet",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-pulsar-auto-trader",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-pulsar-odds",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-pulsar-settler",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-pulsar-simulation-run-updates",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-rewards-consumer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-sidekiq",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-sidekiq-audits",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-sidekiq-low-priority",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-sidekiq-payments",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-tobox",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "prizepicks-rails-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "rails-api",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "rails-backoffice",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-rails:20.136.0-master-0d5bb9d"
+  },
+  {
+    "container": "redis-operator",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/ot-container-kit/redis-operator/redis-operator:v0.18.1"
+  },
+  {
+    "container": "release-manager",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/release-manager:0.0.0"
+  },
+  {
+    "container": "replay-telestrator-daemon",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/replay-telestrator:v0.7.0-1"
+  },
+  {
+    "container": "replay-telestrator-webserver",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/replay-telestrator:v0.7.0-1"
+  },
+  {
+    "container": "rewards",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/rewards:9.23.0-main-86ad407"
+  },
+  {
+    "container": "rewards-consumer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/rewards:9.23.0-main-86ad407"
+  },
+  {
+    "container": "rewards-tobox",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/rewards:9.23.0-main-86ad407"
+  },
+  {
+    "container": "rewards-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/rewards:9.23.0-main-86ad407"
+  },
+  {
+    "container": "rushb",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/rushb-counterstrike:1.108.0-main-a2a175a"
+  },
+  {
+    "container": "scorekeeper",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/scorekeeper:3.170.0-main-8abd0bf"
+  },
+  {
+    "container": "scorekeeper-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/scorekeeper:3.170.0-main-8abd0bf"
+  },
+  {
+    "container": "external-secrets",
+    "releaseChannel": "dev",
+    "imagePath": "oci.external-secrets.io/external-secrets/external-secrets:v0.15.1"
+  },
+  {
+    "container": "cert-controller",
+    "releaseChannel": "dev",
+    "imagePath": "oci.external-secrets.io/external-secrets/external-secrets:v0.15.1"
+  },
+  {
+    "container": "webhook",
+    "releaseChannel": "dev",
+    "imagePath": "oci.external-secrets.io/external-secrets/external-secrets:v0.15.1"
+  },
+  {
+    "container": "connect-api",
+    "releaseChannel": "dev",
+    "imagePath": "1password/connect-api:1.7.3"
+  },
+  {
+    "container": "connect-sync",
+    "releaseChannel": "dev",
+    "imagePath": "1password/connect-sync:1.7.3"
+  },
+  {
+    "container": "onepassword-connect",
+    "releaseChannel": "dev",
+    "imagePath": "1password/onepassword-operator:1.8.1"
+  },
+  {
+    "container": "token-generator",
+    "releaseChannel": "dev",
+    "imagePath": "alpine/k8s:1.25.14"
+  },
+  {
+    "container": "slapshot-hockey",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/slapshot-hockey:0.120.1"
+  },
+  {
+    "container": "slapshot-hockey-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/slapshot-hockey:0.120.1"
+  },
+  {
+    "container": "split-sync",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/split-sync:2.5.0-main-1f122a9"
+  },
+  {
+    "container": "squads",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/squads:0.0.0"
+  },
+  {
+    "container": "squads-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/squads:0.0.0"
+  },
+  {
+    "container": "squads-worker",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/squads:0.0.0"
+  },
+  {
+    "container": "teleport",
+    "releaseChannel": "dev",
+    "imagePath": "public.ecr.aws/gravitational/teleport-distroless:17.5.2"
+  },
+  {
+    "container": "metrics-generator",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/grafana/tempo:2.7.2"
+  },
+  {
+    "container": "tennis-scoring",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/mcenroe-tennis:0.64.0-main-8014815"
+  },
+  {
+    "container": "tennis-scoring-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/mcenroe-tennis:0.64.0-main-8014815"
+  },
+  {
+    "container": "redis-replication",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/opstree/redis:v7.0.12"
+  },
+  {
+    "container": "redis-sentinel-sentinel",
+    "releaseChannel": "dev",
+    "imagePath": "quay.io/opstree/redis-sentinel:v7.0.12"
+  },
+  {
+    "container": "redis-standalone",
+    "releaseChannel": "dev",
+    "imagePath": "valkey/valkey:8.1.1"
+  },
+  {
+    "container": "redis-standalone-audits",
+    "releaseChannel": "dev",
+    "imagePath": "valkey/valkey:8.1.1"
+  },
+  {
+    "container": "redis-standalone-rails",
+    "releaseChannel": "dev",
+    "imagePath": "valkey/valkey:8.1.1"
+  },
+  {
+    "container": "testkube-api",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/kubeshop/testkube-api-server:2.1.143"
+  },
+  {
+    "container": "testkube-minio",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/minio/minio:RELEASE.2023-09-16T01-01-47Z"
+  },
+  {
+    "container": "mongodb",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/zcube/bitnami-compat-mongodb:6.0.5-debian-11-r64"
+  },
+  {
+    "container": "prizepicks-tourneys-utility",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-tourneys:3.211.0-main-681e11f"
+  },
+  {
+    "container": "tourneys",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-tourneys:3.211.0-main-681e11f"
+  },
+  {
+    "container": "tourneys-entry-updater",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-tourneys:0.0.0"
+  },
+  {
+    "container": "tourneys-prediction-updater",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/prizepicks-tourneys:0.0.0"
+  },
+  {
+    "container": "traefik",
+    "releaseChannel": "dev",
+    "imagePath": "docker.io/traefik:v3.3.6"
+  },
+  {
+    "container": "velero",
+    "releaseChannel": "dev",
+    "imagePath": "velero/velero:v1.15.2"
+  },
+  {
+    "container": "autopull-consumer",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/autopull_consumer:12.35.33-main-808b864"
+  },
+  {
+    "container": "velocity-trading",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/velocity_trading:12.35.33-main-808b864"
+  },
+  {
+    "container": "vpn-detector",
+    "releaseChannel": "dev",
+    "imagePath": "ghcr.io/myprizepicks/vpn-detector:0.5.2-main-39502ea"
+  }
+]}

@@ -1,0 +1,10 @@
+{
+  "event_type": "update-release-channel",
+  "client_payload": {
+    "container_name": "test-container-2",
+    "release_channel": "test-channel-2", 
+    "image_path": "ghcr.io/myprizepicks/test:v1.2.5",
+    "source_repo": "manual-test-2",
+    "source_sha": "def456"
+  }
+} 
